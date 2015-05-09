@@ -1,3 +1,11 @@
 .pictureWrapper {
+	background-color: 
 	border: solid black 3px;
+}
+
+.pictureWrapper img{
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+
 }
