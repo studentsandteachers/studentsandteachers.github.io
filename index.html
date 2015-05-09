@@ -47,11 +47,11 @@
               <li><a href="#">Game</a></li>
               <li><a href="#">Web Journal</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sites: <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">Home</a></li>
                   <li><a href="#">Game</a></li>
-                  <li><a href="#test">Test</a></li>
+                  <li><a href="#formTop">Form Questions</a></li>
                 </ul>
               </li>
             </ul>
@@ -83,24 +83,118 @@
 
       </div>
 
-      <div class="row pictureWrapper" id="test">
+      <div class="row" id="formTop">
+        <div class="col-md-6" id="form_holder">
+        <form name="example" action="action" id="example_form" class="form-horizontal">
 
-        <div class="col-xs-6 col-sm-3">
-          <img src="pictures/driving.jpg" alt="Driving" class="img-responsive">
-        </div>
-        <div class="col-xs-6 col-sm-3">
-          <img src="pictures/mom.jpg" alt="Mom" class="img-responsive">
-        </div>
-        <div class="col-xs-6 col-sm-3">
-          <img src="pictures/soccer.jpg" alt="Soccer Team" class="img-responsive">
-        </div>
-        <div class="col-xs-6 col-sm-3">
-          <img src="pictures/track.jpg" alt="Track Man" class="img-responsive">
-        </div>
+          <div class="form-group">
+            
+            <h2>Textbox: </h2>
+            <h3>Name: </h3>
+            
+            <input type="text" name="username" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+            
+            <h2>Password: </h2>
+            <h3>Secret data: </h3>
+            
+            <input type="password" name="secretData" class="form-control"/>
+          </div>
+
+          <div class="form-group">
+            <h2>Textarea:</h2>
+            <h3>Bio: </h3>
+            <textarea rows="4" class="form-control" name="bio"></textarea>
+            
+          </div>
+
+          
+          <div class="row">
+            
+            <div class="form-group col-md-6">
+              <h2>Radio Buttons:</h2>
+              <h3>Gender:</h3>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="gender" value="male"/> 
+                  Male 
+                </label>
+              </div>
+
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="gender" value="female"/> 
+                  Female 
+                </label>
+              </div>
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="gender" value="other"/> 
+                  Other
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group col-md-6">
+              <h2>Checkboxes:</h2>
+              <h3>Limbs I have:</h3>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="limbs" value="arms">
+                  Arms
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="limbs" value="legs">
+                  Legs
+                </label>
+              </div>
+
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" name="limbs" value="head">
+                  Head
+                </label>
+              </div>
+            </div>
+            </div>
+          
+
+          <div class="form-group" id="selector_block">
+            
+            <h2>Dropdown Selector:</h2>
+            <h3>Car I want: </h3>
+
+            <select name="cars" class="form-control">
+              <option value="Volvo">Volvo XC90</option>
+              <option value="Saab">Saab 95</option>
+              <option value="Mercedes">Mercedes SLK</option>
+              <option value="Audi">Audi TT</option>
+              <option value="Lamborghini">Lamborghini Murcielago</option>
+            </select>
+          </div>
+
+          <div class="form-group text-center">
+            <input type="submit" name="submit" value="Submit" class="btn btn-default"/>
+          </div>
+
+          <div class="col-md-5 col-md-offset-1" id="content-display">
+    </div>
+
+        </form>
 
       </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+
+      </div>
 
 
 
@@ -110,6 +204,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/formscript.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scriptquery.js"></script>
   </body>
