@@ -1,3 +1,8 @@
+body{
+background-color: lightgrey;
+}
+
+
 .pictureWrapper {
 	background-color: 
 	border: solid black 3px;
@@ -8,4 +13,51 @@
 	height: auto;
 	overflow: hidden;
 
+}
+
+
+.gallery {
+    padding: 50px 0;
+	background-color: #111111;
+	color: white;
+	border-bottom: 1px solid grey;
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.img-gallery {
+    margin: 0 auto;
+	max-width: 458px;
+	max-height: 305px;
+	width: 100%;
+	height: auto;
+   padding:1px;
+   border:1px solid #021a40;
+   background-color: grey;
+	-webkit-box-shadow: 0px 0px 57px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 57px -7px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 57px -7px rgba(0,0,0,0.75);
+}
+
+.img-gallery:hover {
+    opacity: 0.8;
+}
+
+.gamecontainer {
+	background-color: #cccccc;
+}
+
+.gamerow {
+	text-align: center;
+	float: center;
+}
+
+.image-high:hover {
+ border-radius: 55%;
+ position:relative;
+ top:0px;
+ background:#FF2400;
+ opacity:0.5;
 }
