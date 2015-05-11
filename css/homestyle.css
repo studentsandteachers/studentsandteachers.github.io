@@ -72,7 +72,22 @@ background-color: #B4B1A6;
 /************************************* WEB JOURNAL ******************/
 
 .journalEntry {
-	background-color: 
+	background-color: #7DB1F0;
+	border-radius: 40px;
+	padding: 10px;
+	margin-top: 20px;
 }
 
+.journalEntry a {
+	color: #FFCB7A;
+}
+
+.journalEntry:hover {
+	background-color: #0E6EE0;
+	color: #FFBD55;
+
+}
+.journalEntry:hover a {
+	color: #CD2400;
+}
 
