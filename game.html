@@ -1,11 +1,3 @@
-<!--
-//////////////////////////////////////////////////////////
-// Created by Austin Goodrich
-// Used for FHS Digital Design & Computer Coding Class
-// http://github.com/austingoodrich/RockPaperScissors
-//////////////////////////////////////////////////////////
--->
-
 <html>
 	<head>
 		<title>Rock Paper Scissors</title>
@@ -13,53 +5,46 @@
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 		<!-- CSS for styling stylish styles -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/homestyle.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	
-	<body>
-	    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="jumbotron">
-            <h1 class="text-center">Jamieson Technologies</h1>
-          </div>
-        </div>
-      </div>
 
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Portfolio:</a>
-          </div>
+<div class="container" id="banner">
+	<div class="row">
+	<div class="col-sm-6">
+		<h1><span id="site-title">Jamieson Industries</span><p class="lead">FHS Digital Design & Coding</p></h1>
+	</div>
+	</div>
+</div>
+<nav class="navbar navbar-inverse" role="navigation" id="topnavbar">
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Portfolio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				<li class="active"><a href="game.html">Game</a></li>
+				<li><a href="journal.html">Web Journal</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sites: <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="game.html">Game</a></li>
+						<li><a href="journal.html">Web Journal</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-              <li class="active"><a href="#game.html">Game</a></li>
-              <li><a href="journal.html">Web Journal</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sites: <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="#">Game</a></li>
-                  <li><a href="journal.html" >Web Journal</a></li>
-                </ul>
-              </li>
-            </ul>
-      
-      
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
 	<br>
 		<div class="container gamecontainer">
 			<br><br>
@@ -76,7 +61,7 @@
 				  <h1>Player</h1>
 					<div id="player">
 						<h3>Rock</h3>
-						<img src="pictures/rock.png">
+						<img src="img/rock.png">
 					</div>
 				  </div>
 				   <div class="col-md-4">
@@ -87,7 +72,7 @@
 				  <h1>Computer</h1>
 					<div id="computer">
 						<h3>Rock</h3>
-						<img src="pictures/rock.png">
+						<img src="img/rock.png">
 					</div>
 				  </div>
 				</div>
@@ -95,9 +80,9 @@
 			</div>
 			<div class="row gamerow">
 			<h3>Select your play</h3>
-			  <div class="col-md-4"><h3>Rock</h3><img onclick="playerRock()" class="image-high" src="pictures/rock.png"></div>
-			  <div class="col-md-4"><h3>Paper</h3><img onclick="playerPaper()" class="image-high" src="pictures/paper.png"></div>
-			  <div class="col-md-4"><h3>Scissors</h3><img onclick="playerScissors()" class="image-high"src="pictures/scissors.png"></div>
+			  <div class="col-md-4"><h3>Rock</h3><img onclick="playerRock()" class="image-high" src="img/rock.png"></div>
+			  <div class="col-md-4"><h3>Paper</h3><img onclick="playerPaper()" class="image-high" src="img/paper.png"></div>
+			  <div class="col-md-4"><h3>Scissors</h3><img onclick="playerScissors()" class="image-high"src="img/scissors.png"></div>
 			</div>
 			<br><br><br>
 		</div>
