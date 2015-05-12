@@ -1,103 +1,76 @@
-<!--
-//////////////////////////////////////////////////////////
-// Created by Austin Goodrich/Mr. Jamieson/Josh Henderson/Dustin Diep
-// Used for FHS Digital Design & Computer Coding Class
-//////////////////////////////////////////////////////////
--->
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Final Project Example</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Final Project Example</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container" id="banner">
+	<div class="row">
+	<div class="col-sm-6">
+		<h1><span id="site-title">Jamieson Industries</span><p class="lead">FHS Digital Design & Coding</p></h1>
+	</div>
+	</div>
+</div>
+<nav class="navbar navbar-inverse" role="navigation" id="topnavbar">
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">Portfolio</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="game.html">Game</a></li>
+				<li><a href="journal.html">Web Journal</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sites: <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="game.html">Game</a></li>
+						<li><a href="journal.html">Web Journal</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container">
+<div class="row">
+	<div class="col-xs-12">
+		<h1>About Me <small>Short Biography & A Few Pictures</small></h1>
+	</div>
+</div>
+<div class="media">
+	<div class="media-body">
+		<h4 class="media-heading">Short Biography</h4>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus mattis posuere. Donec posuere pharetra erat. Donec pharetra sem quis lectus vestibulum pharetra. In tempor ornare interdum. Phasellus cursus lacus nibh, ut auctor mi condimentum eu. Nullam id blandit risus, at semper urna. Phasellus quam dui, sodales ut egestas sit amet, iaculis vel sem. Quisque luctus eleifend mauris, at facilisis urna accumsan eu. Aliquam euismod laoreet ex, ut fermentum nisi auctor nec. Proin viverra feugiat neque id pulvinar. Duis interdum accumsan magna, et sollicitudin ligula blandit scelerisque. Aliquam erat volutpat. Praesent pretium nisl id faucibus pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sit amet aliquam tellus.
+	</div>
+</div>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/homestyle.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="jumbotron">
-            <h1 class="text-center">Jamieson Technologies</h1>
-          </div>
-        </div>
-      </div>
-
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Portfolio:</a>
-          </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-              <li><a href="game.html">Game</a></li>
-              <li><a href="journal.html">Web Journal</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sites: <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#index.html">Home</a></li>
-                  <li><a href="game.html">Game</a></li>
-                  <li><a href="journal.html">Web Journal</a></li>
-                </ul>
-              </li>
-            </ul>
-      
-      
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-
-      <div class="row">
-        <div class="col-xs-12">
-          <h1>About Me<small> <i>A few pictures and a short biography</i></small></h1>
-        </div>
-		
-      </div>
-	  			  <div class="media">
-				  <div class="media-left">
-				  </div>
-				  <div class="media-body">
-					<h4 class="media-heading">Short Biography</h4>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus mattis posuere. Donec posuere pharetra erat. Donec pharetra sem quis lectus vestibulum pharetra. In tempor ornare interdum. Phasellus cursus lacus nibh, ut auctor mi condimentum eu. Nullam id blandit risus, at semper urna. Phasellus quam dui, sodales ut egestas sit amet, iaculis vel sem. Quisque luctus eleifend mauris, at facilisis urna accumsan eu. Aliquam euismod laoreet ex, ut fermentum nisi auctor nec. Proin viverra feugiat neque id pulvinar. Duis interdum accumsan magna, et sollicitudin ligula blandit scelerisque. Aliquam erat volutpat. Praesent pretium nisl id faucibus pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis sit amet aliquam tellus.
-				  </div>
-				</div>
-	        <div class="col-lg-10 col-lg-offset-1 text-center">
-                 <h2></h2>
-                 <hr class="small">
+<!-- To Edit -->
+</div>
+	<div class="col-lg-10 col-lg-offset-1 text-center">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="gallery-item">
                                 <a >
-                                    <img class="img-gallery"  src="pictures/driving.jpg"  alt="Driving">
+                                    <img class="img-gallery"  src="img/driving.jpg"  alt="Driving">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="gallery-item">
                                 <a >
-                                    <img class="img-gallery"  src="pictures/mom.jpg" alt="Mom">
+                                    <img class="img-gallery"  src="img/mom.jpg" alt="Mom">
                                 </a>
                             </div>
                         </div>
@@ -106,14 +79,14 @@
                         <div class="col-md-6">
                             <div class="gallery-item">
                                 <a >
-                                    <img class="img-gallery"src="pictures/soccer.jpg" alt="Soccer Team" >
+                                    <img class="img-gallery"src="img/soccer.jpg" alt="Soccer Team" >
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="gallery-item">
                                 <a >
-                                    <img class="img-gallery"  src="pictures/snowboarding.JPG" alt="Snowboarding" >
+                                    <img class="img-gallery"  src="img/snowboarding.JPG" alt="Snowboarding" >
                                 </a>
                             </div>
                         </div>
@@ -135,7 +108,7 @@
 			<div class="modal-content">
 			  <div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Forms</h4>
+				<h3 class="modal-title" id="myModalLabel">Forms</h3>
 			  </div>
 			  <div class="modal-body">
 				      <div class="row" id="formTop" style="padding-left: 55px">
@@ -232,14 +205,15 @@
 				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 			  </div>
 			</div>
-		  </div>
 		</div>
+		</div>
+<!-- To Edit -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/formscript.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scriptquery.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/formscript.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
 </html>

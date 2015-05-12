@@ -1,0 +1,85 @@
+#topnavbar {
+    margin: 0;
+    z-index: 1;
+}
+
+#topnavbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#site-title {
+	color: 
+}
+
+.pictureWrapper {
+	background-color: 
+	border: solid #000000 3px;
+}
+
+.pictureWrapper img{
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+}
+
+.gallery {
+	background-color: #111111;
+	color: white;
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.img-gallery {
+	margin: 0 auto;
+	max-width: 450px;
+	max-height: 450px;
+	width: 100%;
+	padding: 1px;
+	border: 1px solid #000000;
+}
+
+.img-gallery:hover {
+	opacity: 0.8;
+}
+
+.gamecontainer {
+	background-color: #838178;
+}
+
+.gamerow {
+	text-align: center;
+	float: center;
+}
+
+.image-high:hover {
+	border-radius: 55%;
+	position:relative;
+	top:0px;
+	background:#FF2400;
+	opacity:0.5;
+}
+
+.journalEntry {
+	background-color: #7DB1F0;
+	border-radius: 40px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.journalEntry a {
+	color: #FFCB7A;
+}
+
+.journalEntry:hover {
+	background-color: #0E6EE0;
+	color: #FFBD55;
+
+}
+.journalEntry:hover a {
+	color: #CD2400;
+}
+
