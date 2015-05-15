@@ -1,12 +1,10 @@
-/* As a rule of thumb, do not use words as a substitute for a color */
-
 body {
-	background-color: #D3D3D3;
+background-color: lightgrey;
 }
 
 #banner {
-	padding-left: 10%;
-	background-color: #FFFFFF;
+background-color: white;
+padding-left: 10%;
 }
 
 #topnavbar {
@@ -21,30 +19,40 @@ body {
 }
 
 #site-title {
-	color: #2765A0;
+	color: 
 }
 
-.preview {
+.pictureWrapper {
+	background-color: grey;
+	border: solid #000000 3px;
+}
+
+.pictureWrapper img{
+	width: 300px;
+	height: auto;
 	overflow: hidden;
 }
 
-.imgprev img {
+.gallery {
+	background-color: #111111;
+	color: white;
+}
+
+.gallery-item {
+    margin-bottom: 15px;
+}
+
+.img-gallery {
+	margin: 0 auto;
 	max-width: 450px;
-	max-height: auto;
-	border: 2px solid rgba(49, 49, 49, 0.2);	
+	max-height: 450px;
+	width: auto;
+	padding: 1px;
+	border: 1px solid #000000;
 }
 
-.imgprev img:hover {
-	border-color: #848484;
-	-webkit-transition: border-color 0.2s;
-	-moz-transition: border-color 0.2s;
-	-ms-transition: border-color 0.2s;
-	-o-transition: border-color 0.2s;
-	transition: border-color 0.2s;
-}
-
-.center-align {
-	text-align: center;
+.img-gallery:hover {
+	opacity: 0.8;
 }
 
 .gamecontainer {
