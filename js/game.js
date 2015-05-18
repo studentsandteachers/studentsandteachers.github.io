@@ -19,7 +19,7 @@ var score = 0;
 //When player picks Rock, run this function
 function playerRock(){
 		//Set The Image & Text
-		document.getElementById("player").innerHTML = "<h3>Rock</h3><img src='pictures/rock.png'>"
+		document.getElementById("player").innerHTML = "<h3>Rock</h3><img src='img/rock.png'>"
 		//Set playerChoice variable to Rock
 		playerChoice = 1;
 	// Run Computer's Turn, Randomize
@@ -29,7 +29,7 @@ function playerRock(){
 //When player picks Paper, run this function
 function playerPaper(){
 		//Set The Image & Text
-		document.getElementById("player").innerHTML = "<h3>Paper</h3><img src='pictures/paper.png'>"
+		document.getElementById("player").innerHTML = "<h3>Paper</h3><img src='img/paper.png'>"
 		//Set playerChoice variable to Paper
 		playerChoice = 2;
 	// Run Computer's Turn, Randomize
@@ -39,7 +39,7 @@ function playerPaper(){
 //When player picks Scissors, run this function
 function playerScissors(){
 		//Set The Image & Text
-		document.getElementById("player").innerHTML = "<h3>Scissors</h3><img src='pictures/scissors.png'>"
+		document.getElementById("player").innerHTML = "<h3>Scissors</h3><img src='img/scissors.png'>"
 		//Set playerChoice variable to Scissors
 		playerChoice = 3;
 	// Run Computer's Turn, Randomize
@@ -65,7 +65,7 @@ function computer(){
  	if(randomNumber <= 33){
 		//Rock
 		console.log('Rock.');
-		document.getElementById("computer").innerHTML = "<h3>Rock</h3><img src='pictures/rock.png'>"
+		document.getElementById("computer").innerHTML = "<h3>Rock</h3><img src='img/rock.png'>"
 		computerChoice = 1;
 	} 
 	// If it isn't 'Less Than' 33, is it 'Less Than' or 'Equal to' "<=" to 66
@@ -73,7 +73,7 @@ function computer(){
 	else if (randomNumber <= 66){
 		//Paper
 			console.log('Paper.');
-			document.getElementById("computer").innerHTML = "<h3>Paper</h3><img src='pictures/paper.png'>"
+			document.getElementById("computer").innerHTML = "<h3>Paper</h3><img src='img/paper.png'>"
 			computerChoice = 2;
 	} 
 	// If it isn't 'Less Than' 66, is it 'Less Than' or 'Equal to' "<=" to 100
