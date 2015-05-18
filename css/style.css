@@ -1,10 +1,12 @@
+/* As a rule of thumb, do not use words as a substitute for a color */
+
 body {
-background-color: lightgrey;
+	background-color: #D3D3D3;
 }
 
 #banner {
-background-color: white;
-padding-left: 10%;
+	padding-left: 10%;
+	background-color: #FFFFFF;
 }
 
 #topnavbar {
@@ -19,7 +21,7 @@ padding-left: 10%;
 }
 
 #site-title {
-	color: 
+	color: #2765A0;
 }
 
 .pictureWrapper {
@@ -53,6 +55,10 @@ padding-left: 10%;
 
 .img-gallery:hover {
 	opacity: 0.8;
+}
+
+.center-align {
+	text-align: center;
 }
 
 .gamecontainer {
