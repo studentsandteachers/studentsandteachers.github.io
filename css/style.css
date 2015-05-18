@@ -9,6 +9,10 @@ body {
 	background-color: #FFFFFF;
 }
 
+.banner-fix {
+ margin-right: 0;
+}
+
 #topnavbar {
     margin: 0;
     z-index: 1;
@@ -46,9 +50,10 @@ body {
 
 .img-gallery {
 	margin: 0 auto;
-	max-width: 450px;
-	max-height: 450px;
-	width: auto;
+	max-width: 458px;
+	max-height: 305px;
+	width: 100%;
+	height: auto;
 	padding: 1px;
 	border: 1px solid #000000;
 }
